@@ -11,7 +11,8 @@ df2 = pd.DataFrame({
 
   'G':  [12,23,31,44]
 
- })
+ })
+
 
 
 print(df2)
@@ -19,10 +20,10 @@ print(df2.dtypes)
 print(df2.columns.values)
 print(df2.tail(1))
 print('========numpy seti================')
-print(df2.to_numpy())
+print(df2.to_numpy())
 
 print('=========tanımlama==============')
-print(df2.describe())
+print(df2.describe())
 
 print('==========sıralama==============')
 
@@ -61,7 +62,8 @@ print(df2.iloc[:, 1:3])
 
 
 print('===========değere göre filtreleme=============')
-print(df2[df2['G'] > 25])
+print(df2[df2['G'] > 25])
+
 
 
 print('===========hücre değerine göre çoklu seçim=============')
